@@ -67,7 +67,7 @@ export const DATA = {
       },
     },
   },
-
+  /*
   work: [
     {
       company: "Atomic Finance",
@@ -142,6 +142,7 @@ export const DATA = {
         "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
     },
   ],
+  */
   education: [
     {
       school: "MIT-WPU, Pune",
@@ -155,7 +156,7 @@ export const DATA = {
       school: "Government Polytechnic, Nagpur",
       href: "https://www.gpnagpur.ac.in/gpnagpur_new/",
       degree: "Diploma in Information Technology",
-      logoUrl: "/gpn.jpeg",
+      logoUrl: "/gpn.jpg",
       start: "2021",
       end: "2023",
     },
@@ -204,9 +205,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/astrayatralogo.jpg",
       video:
-        "https://drive.google.com/file/d/1B7ty-7RPFEQV-yMC9tYlHDpmiPA0taPn/view?usp=sharing",
+        "",
     },
     /*
     {
@@ -305,6 +306,7 @@ export const DATA = {
     },
     */
   ],
+  /*
   hackathons: [
     {
       title: "Hack Western 5",
@@ -690,4 +692,5 @@ export const DATA = {
       ],
     },
   ],
+  */
 } as const;
