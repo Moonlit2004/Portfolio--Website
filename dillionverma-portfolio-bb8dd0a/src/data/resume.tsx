@@ -6,12 +6,12 @@ export const DATA = {
   initials: "PB",
   url: "https://dillion.io",
   location: "Pune, India",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://maps.app.goo.gl/JCyWhaCL7gYaEUkN9",
   description:
     "Game dev who loves crafting fun and immersive experiences. I enjoy bringing creative ideas to life through programming and design. Let’s connect on social media to chat about games and collaborate on cool projects!",
   summary:
     "At the end of my studies, I transitioned from a lifelong gamer to a passionate game developer, pursuing my dream of creating my own games. With over a decade of experience playing various genres, I hold a diploma in IT and am currently completing my degree in Computer Science. Alongside my studies, I've been actively developing and publishing my own games and participating in game jams to hone my skills and creativity.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/profile.jpeg",
   skills: [
     "C++",
     "C",
@@ -63,7 +63,7 @@ export const DATA = {
         url: "prathameshburade07@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -147,7 +147,7 @@ export const DATA = {
       school: "MIT-WPU, Pune",
       href: "https://mitwpu.edu.in/",
       degree: "B.Tech Computer Scienece",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "/mitwpu.png",
       start: "2023",
       end: "2026",
     },
@@ -155,10 +155,11 @@ export const DATA = {
       school: "Government Polytechnic, Nagpur",
       href: "https://www.gpnagpur.ac.in/gpnagpur_new/",
       degree: "Diploma in Information Technology",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/gpn.jpeg",
       start: "2021",
       end: "2023",
     },
+    /*
     {
       school: "Wilfrid Laurier University",
       href: "https://wlu.ca",
@@ -175,6 +176,7 @@ export const DATA = {
       start: "2012",
       end: "2016",
     },
+    */
   ],
   projects: [
     {
@@ -204,8 +206,9 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://drive.google.com/file/d/1B7ty-7RPFEQV-yMC9tYlHDpmiPA0taPn/view?usp=sharing",
     },
+    /*
     {
       title: "Magic UI",
       href: "https://magicui.design",
@@ -300,6 +303,7 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
+    */
   ],
   hackathons: [
     {
