@@ -2,54 +2,52 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
+  name: "Prathamesh Burade",
+  initials: "PB",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Game dev who loves crafting fun and immersive experiences. I enjoy bringing creative ideas to life through programming and design. Let’s connect on social media to chat about games and collaborate on cool projects!",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "At the end of my studies, I transitioned from a lifelong gamer to a passionate game developer, pursuing my dream of creating my own games. With over a decade of experience playing various genres, I hold a diploma in IT and am currently completing my degree in Computer Science. Alongside my studies, I've been actively developing and publishing my own games and participating in game jams to hone my skills and creativity.",
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
     "C++",
+    "C",
+    "C#",
+    "Python",
+    "Unity 3D",
+    "Javascript",
+    "Git",
+    "Github",
+    "Java",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "prathameshburade07@gmail.com",
+    tel: "91+ 8080891837",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Moonlit2004",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/prathamesh-burade-5aa1762b7/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/Moonlit2004",
         icon: Icons.x,
 
         navbar: true,
@@ -58,11 +56,11 @@ export const DATA = {
         name: "Youtube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "prathameshburade07@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -146,20 +144,20 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
+      school: "MIT-WPU, Pune",
+      href: "https://mitwpu.edu.in/",
+      degree: "B.Tech Computer Scienece",
       logoUrl: "/buildspace.jpg",
       start: "2023",
-      end: "2024",
+      end: "2026",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      school: "Government Polytechnic, Nagpur",
+      href: "https://www.gpnagpur.ac.in/gpnagpur_new/",
+      degree: "Diploma in Information Technology",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      start: "2021",
+      end: "2023",
     },
     {
       school: "Wilfrid Laurier University",
@@ -180,27 +178,28 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Astra Yatra",
+      href: "https://sharemygame.com/@Moonlit/astra-yatra",
+      dates: "August 2024 - September 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a dynamic 3D game in Unity, titled Astra Yatra, where players navigate a rocket from point A to point B while overcoming various static and moving obstacles. The game features four distinct levels, each with unique themes and assets sourced from the Unity Asset Store. The narrative centers around humanity's desperate escape from Earth due to nuclear wars, adding depth and urgency to the gameplay experience. This project showcases my skills in game design, C# programming, and level development, highlighting my ability to create engaging and immersive interactive experiences.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "C#",
+        "Unity 3D",
+        "VS Code",
+        "Unity Asset Store",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://sharemygame.com/@Moonlit/astra-yatra",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Moonlit2004/Astra-Yatra",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
